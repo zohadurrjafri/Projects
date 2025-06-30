@@ -1,0 +1,14 @@
+h1 {
+  font-weight: 700;
+  font-size: 10vh;
+  margin: 2vh;
+  margin-bottom: 60px;
+}
+
+input { 
+  width: 60%;
+}
+
+.row-two { 
+  margin: 10px;
+}

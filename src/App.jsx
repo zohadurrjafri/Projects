@@ -1,44 +1,18 @@
+import AppName from "./components/AppName"
+import AddTask from "./components/AddTask"
+import TaskItem1 from "./components/TaskItem1"
+import TaskItem2 from "./components/TaskItem2"
+import "./App.css"
+
 function App() {
 
   return (
-    <center className="todo-container" >
-      <h1>
-        ToDo App
-      </h1>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-6">
-            <input type="text" placeholder="Enter your task here "/>
-          </div>
-          <div class="col-4">
-            <input type="date" name="" id="" />
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn btn-success">Add</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            Buy Milk
-          </div>
-          <div class="col-4">
-            22/04/2024
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn btn-danger">Delete</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            Go to College
-          </div>
-          <div class="col-4">
-            07/01/2025
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn btn-danger">Delete</button>
-          </div>
-        </div>
+    <center className="task-container" >
+      <AppName></AppName>
+      <AddTask></AddTask>
+      <div className="items-container" >
+        <TaskItem1></TaskItem1>
+        <TaskItem2></TaskItem2>
       </div>
     </center> 
   )
