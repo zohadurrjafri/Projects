@@ -1,0 +1,14 @@
+* {
+  background-color: beige;
+}
+
+h1 { 
+  font-size: 15vh;
+  margin: 2vh;
+  margin-bottom: 4vh;
+}
+
+p {
+  margin: 4vh;
+  margin-top: 6vh;
+}
