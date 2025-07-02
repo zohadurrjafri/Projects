@@ -1,7 +1,9 @@
+import style from "./AppName.module.css"
+
 const AppName = () => {
   return (
     <>
-      <h1>
+      <h1 className={style.todoHeading} >
         <center>
           ToDo App
         </center>

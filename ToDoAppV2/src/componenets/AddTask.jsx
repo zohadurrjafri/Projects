@@ -1,15 +1,17 @@
+import styles from "./AddTask.module.css"
+
 const AddTask = () => {
   return (
     <>
-      <div class="row">
-        <div class="col-6">
-          <input type="text" placeholder="Enter the task"/>
+      <div className="row">
+        <div className="col-6">
+          <input className={styles.todoInput} type="text" placeholder="Enter the task"/>
         </div>
-        <div class="col-4">
+        <div className="col-4">
           <input type="date" />
         </div>
-        <div class="col-2">
-          <button type="button" class="btn btn-success">Add</button>
+        <div className="col-2">
+          <button type="button" className="btn btn-success">Add</button>
         </div>
       </div>
     </>

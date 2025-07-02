@@ -1,26 +1,30 @@
 import './App.css'
 import AppName from './componenets/AppName'
 import AddTask from './componenets/AddTask'
-import TaskItem from './componenets/TaskItem'
+import TaskItems from './componenets/TaskItems'
 
 function App() {
 
   const todoItems = [
-    {
-      name: "Buy Milk",
-      dueDate: "2345"
-    },
-    {
-      name: "Go to College",
-      dueDate: "23452"
-    },
+      {
+        name: "Buy Milk",
+        dueDate: "2345"
+      },
+      {
+        name: "Go to College",
+        dueDate: "23452"
+      },
+      {
+        name: "Like",
+        dueDate: "4325"
+      }
   ]
 
   return (
     <>
       <AppName></AppName>
       <AddTask></AddTask>
-      <TaskItem todoName="Buy Milk" todoDate="244" ></TaskItem>
+      <TaskItems todoItems={todoItems} ></TaskItems>
     </>
   )
 }
