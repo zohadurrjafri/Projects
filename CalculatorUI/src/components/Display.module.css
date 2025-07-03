@@ -1,4 +1,6 @@
 .disp {
-  margin: 20px;
-  width: 30%;
+  display: block;
+  width: 83%;
+  margin: 20px auto 10px auto;
+  font-size: 20px;
 }
