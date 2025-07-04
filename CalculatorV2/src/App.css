@@ -1,0 +1,9 @@
+.calc {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
