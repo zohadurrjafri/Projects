@@ -1,10 +1,10 @@
 import styles from "./Display.module.css"
 
-const Display = () => {
+const Display = ({displayValue}) => {
   return(
     <>
       <div className="wrapper">
-        <input id="display" className={styles.disp} type="text" />
+        <input id="display" className={styles.disp} type="text" value={displayValue} readOnly />
       </div>
     </>
   )
